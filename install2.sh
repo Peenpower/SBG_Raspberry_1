@@ -1,17 +1,21 @@
 ###### PART 2 #######
+
+# Update
+sudo apt-get update
+sudo apt-get dist-upgrade
+
 # Install GDebi Package Installer
-sudo apt-get install gdebi
+sudo apt-get install gdebi -y
 
 # Install Citrix receiver
-sudo gdebi icaclient_13.4.0.10109380_armhf.deb.
+sudo gdebi /SBG_Raspberry_1/icaclient_13.9.1.6_armhf.deb -y
 
 # Change Boot screen
-sudo cp /raspberry/splash.png /usr/share/plymouth/themes/pix/splash.png
+sudo cp /SBG_Raspberry_1/splash.png /usr/share/plymouth/themes/pix/splash.png
 
 # Create Autostart chromium
-sudo cp /raspberry/autostart ~/.config/lxsession/LXDE-pi/autostart
-
+sudo cp /SBG_Raspberry_1/autostart ~/.config/lxsession/LXDE-pi/autostart
 
 #restart
-#sudo reboot
+sudo reboot
 

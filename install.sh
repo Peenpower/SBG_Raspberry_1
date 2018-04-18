@@ -17,11 +17,11 @@ sudo cp /usr/share/zoneinfo/Europe/Amsterdam /etc/localtime
 sudo apt-get -y install git-core
 
 # Clone repo
-git clone https://github.com/Peenpower/SBG_Raspberry.git
+git clone https://github.com/Peenpower/SBG_Raspberry_1.git
 
-chmod 777 ~/raspberry/install2.sh
+chmod 777 ~/SBG_Raspberry_1/install2.sh
 
 ###### END PART 1 #######
 
 # start install2.sh
-raspberry/install2.sh
+SBG_Raspberry_1/install2.sh
