@@ -1,5 +1,0 @@
-@xset s off
-@xset -dpms
-@xset s noblank
-@unclutter
-@chromium-browser --noerrdialogs --kiosk --incognito https://slokker.hierinloggen.nl
